@@ -38,17 +38,22 @@ header{
 
 }
 
-.heroBanner{
-    padding: 10px;
-    padding-right: 10px;
-    width: 100vw;
+.infoPage{
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
-
-.heroImage{
-    width: 95%;
-    height: 200px;
+.bannerImage{
+    width: 100%;
+    height: 30vh;
+    z-index: 0;
+    grid-area: 1/1/2/2;
 }
-
+.bannerWords{
+    z-index: 1;
+    grid-area: 1/1/2/2;
+}
 
 .card{
     display: flex;
