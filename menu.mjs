@@ -1,4 +1,4 @@
-const Menu = {
+const menu = {
     bread :{
         loafs :[
             {
@@ -242,4 +242,8 @@ const Menu = {
         ]
         
     }           
+}
+
+export function getMenuData(){
+    return menu;
 }
