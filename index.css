@@ -1,0 +1,34 @@
+body{
+    padding:0;
+    background-color: #000000;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px;
+    width: auto;
+}
+
+.Tablelogo{
+    height: 100px;
+    z-index: 0;
+    margin-left: 35vw;
+    border-radius: 10%;
+}
+
+.navholder{
+    background-color: #b5a696;
+    width:40px;
+    height: 40px;
+
+    margin-left: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuIcon{
+    height: 50px;
+
+}
