@@ -18,45 +18,57 @@ const menu = {
                 price : 5.99
             }  ,
             {
-                name : "Sandwitch Roll",
+                name : "Sandwich Roll",
                 price : 4.99
             },
             {
                 name : "Cinnamon Roll",
-                price : 5.75
+                price : 4.75
             }
         ]
     },
     breakfast:{
         meal : [
             {
-                name : "Egg & Cheese Sandwitch",
-                price : 5.99
+                name : "Egg & Cheese Sandwich",
+                price : 8.96
             },
             {
-                name : "Sausege or Ham Egg & Cheese Sandwitch",
-                price : 6.99
+                name : "Sausege Egg and Cheese Sandwich",
+                price : 10.49
+            },
+            {
+                name : "Ham Egg and Cheese Sandwich",
+                price : 9.49
             },
             {
                 name : "Buttermilk Pankake",
-                price : 5.99
+                price : 2.49
             },
             {
                 name: "Biscuits and Gravey",
-                price : 5.99
+                price : 6.59
             },
             {
-                name : "Biscuits and Gravey with Slice of Ham",
-                price : 5.99
+                name : "Biscuits Ham and Gravy",
+                price : 8.49
             },
             {
-                name : "Biscuits and Gravey with 2 Sausege Patties",
-                price : 5.99
+                name : "Biscuits Sausage and Gravy",
+                price : 8.49
             },
             {
                 name : "French Toast",
                 price : 5.99,
             },
+            {
+                name : "Slice of Toast",
+                price : 1.50
+            },
+            {
+                name : "Slice of Bread with Butter",
+                price : 1.50
+            }
 
         ],
         eggs : [
@@ -71,27 +83,27 @@ const menu = {
                     " Over Easy",
                     " or Fried"],
 
-                price : 6.25
+                price : 3.69
             },
         ]
     },
     sandWiches : {
         nonGrilled : {
-            sandwitches : [
+            sandwiches : [
                 {
                     name : "Turkey Provolone",
                     halfPrice : 5.39,
                     fullPrice : 8.69
                 },
                 {
-                    name : "Ham & Chedar",
+                    name : "Ham & Cheddar",
                     halfPrice : 5.39,
                     fullPrice : 8.69
                 },
                 {
                     name : "Roast Beef and Provolone",
-                    halfPrice : 5.39,
-                    fullPrice : 8.69
+                    halfPrice : 6.39,
+                    fullPrice : 9.69
                 },
                 {
                     name : "Toasted Tomato",
@@ -109,11 +121,11 @@ const menu = {
             ]
         },
         GrilledSandwiches : {
-            sandwitches : [
+            sandwiches : [
     
                 {
                     name : "Ham and Cheese",
-                    price : 6.99,
+                    price : 9.69,
                 },
                 {
                     name : "Grilled Cheese",
@@ -122,7 +134,7 @@ const menu = {
                 },
                 {
                     name : "PB & J",
-                    price : 8.69,
+                    price : 3.99,
                 
                 }
             ],
@@ -152,8 +164,8 @@ const menu = {
             },
         ]
     },
-    StudentMeal : {
-        description : "1/2 sandwitch, Chips and a Drink",
+    studentMeal : {
+        description : "1/2 Sandwich, Chips and a Drink",
         price : 6.60
     },
     soups :{
@@ -215,7 +227,7 @@ const menu = {
             {
                 name : "Sand Dune Sunset",
                 price : 4.00,
-                description: "Passion Fruit, Orange, & Guava"
+                description: "Passion Fruit, Orange, and Guava"
             },
             {
                 name : "Teton Hucklberry",
@@ -230,7 +242,7 @@ const menu = {
         ],
         other: [
             {
-                name : "Can Drink",
+                name : "Canned Drink",
                 price : 1.50
             },
             {
@@ -238,7 +250,7 @@ const menu = {
                 price : 3.00
             },
             {
-                name : "Cofee",
+                name : "Coffee",
                 price : 1.70
             },
             {
@@ -251,11 +263,11 @@ const menu = {
             },
             {
                 name : "Juice Box / Pouch",
-                price : 3.00
+                price : 1.00
             },
             {
                 name : "Hot Chocolate",
-                price : 3.40
+                price : 3.50
             }
         ]
         

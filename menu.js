@@ -22,7 +22,12 @@ async function populateSandWiches(){
     const menuData = await getMenuData();
     const sandwichItems = document.getElementById("sandwichItems");
 
-    menuData.sandWiches.nonGrilled.sandwitches.forEach(meal => {
+    const studentMeal = document.createElement("h4");
+    studentMeal.textContent = `StudentMeal - ${menuData.studentMeal.description} - $${menuData.studentMeal.price.toFixed(2)}`;
+    sandwichItems.appendChild(studentMeal);
+
+
+    menuData.sandWiches.nonGrilled.sandwiches.forEach(meal => {
         const line = document.createElement("p");
         line.textContent = `${meal.name} - Half: $${meal.halfPrice} Full: $${meal.fullPrice}`;
         sandwichItems.appendChild(line);
@@ -43,7 +48,7 @@ async function populateGrilledSandWiches(){
     const menuData = await getMenuData();
     const grilledSandwichItems = document.getElementById("grilledSandwichItems");
 
-    menuData.sandWiches.GrilledSandwiches.sandwitches.forEach(meal => {
+    menuData.sandWiches.GrilledSandwiches.sandwiches.forEach(meal => {
         const line = document.createElement("p");
         line.textContent = `${meal.name} - $${meal.price}`;
         grilledSandwichItems.appendChild(line);

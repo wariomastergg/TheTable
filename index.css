@@ -201,5 +201,9 @@ footer{
     .bannerWords{
         display: none;
     }
+
+    .navholder{
+        display: none;
+    }
     
 }
