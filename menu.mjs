@@ -67,9 +67,9 @@ const menu = {
             {
                 name : [
                     "Scrambled",
-                    "Sunny Side Up",
-                    "Over Easy",
-                    "Fried"],
+                    " Sunny Side Up",
+                    " Over Easy",
+                    " or Fried"],
 
                 price : 6.25
             },
@@ -77,51 +77,63 @@ const menu = {
     },
     sandWiches : {
         nonGrilled : {
-            name : [
-                "Turkey Provolone",
-                "Ham & Chedar",
-                "Roast Beef and Provolone",
-                "Toasted Tomato"],
-            halfPrice :5.39,
-            fullPrice : 8.69,
+            sandwitches : [
+                {
+                    name : "Turkey Provolone",
+                    halfPrice : 5.39,
+                    fullPrice : 8.69
+                },
+                {
+                    name : "Ham & Chedar",
+                    halfPrice : 5.39,
+                    fullPrice : 8.69
+                },
+                {
+                    name : "Roast Beef and Provolone",
+                    halfPrice : 5.39,
+                    fullPrice : 8.69
+                },
+                {
+                    name : "Toasted Tomato",
+                    halfPrice : 5.39,
+                    fullPrice : 8.69
+                }
+            ],
             addOns : [
                 "Mustard",
-                "Mayonnaise",
-                "Lettuce and Tomatos",
-                "Pickles",
-                "Red Onions",
+                " Mayonnaise",
+                " Lettuce",
+                " Tomatos",
+                " Pickles",
+                " Red Onions",
             ]
         },
-        GrilledSandwiches : [
-            {
-                name : "Ham and Cheese",
-                price : 6.99,
-                addOns : [
-                    "Ham",
-                    "Cheddar",
-                    "Lettuce",
-                    "Pickles",
-                    "House Dressing"
-                ]
-            },
-            {
-                name : "Grilled Cheese",
-                price : 8.69,
-                addOns : [
-                    "Ham",
-                    "Cheddar",
-                    "Lettuce",
-                    "Pickles",
-                    "House Dressing"
-                ]               
-            },
-            {
-                name : "PB & J",
-                price : 8.69,
-                addOns : []               
-            },
-
-        ]
+        GrilledSandwiches : {
+            sandwitches : [
+    
+                {
+                    name : "Ham and Cheese",
+                    price : 6.99,
+                },
+                {
+                    name : "Grilled Cheese",
+                    price : 8.69,
+         
+                },
+                {
+                    name : "PB & J",
+                    price : 8.69,
+                
+                }
+            ],
+            addOns : [
+                "Ham",
+                "Cheddar",
+                "Lettuce",
+                "Pickles",
+                "House Dressing"
+            ]      
+        }
 
     },
     KidsMenu : {
