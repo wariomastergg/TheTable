@@ -88,6 +88,12 @@ async function populateSoupSize() {
 
     soupItems.appendChild(sizeHolder);
 
+    menuData.soups.dayOfWeek.forEach(soup => {
+        let line = document.createElement("p");
+        line.textContent = `${soup.day} - ${soup.name}`;
+        soupItems.appendChild(line);
+    });
+
 }
 
 async function populateDrinks() {
@@ -117,3 +123,34 @@ function populateMenu(){
 }
 
 document.addEventListener("DOMContentLoaded", populateMenu);
+
+
+function changeHideClass(idElement){
+
+    let containerId ="";
+    if (idElement == "breakfastButton"){
+        containerId = "breakFastContainer";
+    } else if (idElement == "sandwichButton"){
+        containerId = "sandwichMenuContainer";
+    } else if (idElement == "grilledSandwichButton"){
+        containerId = "grilledSandwichContainer";
+    } else if (idElement == "kidsButton"){
+        containerId = "kidsMenuContainer";
+    } else if (idElement == "soupButton"){
+        containerId = "soupsContainer";
+    } else if (idElement == "drinkButton"){
+        containerId = "drinkContainer";
+    }
+
+    const container = document.getElementById(containerId);
+    container.classList.toggle("hide");
+
+}
+
+const idButtonList = ["breakfastButton", "sandwichButton", "grilledSandwichButton", "kidsButton", "soupButton", "drinkButton"]
+
+idButtonList.forEach(id => {
+    document.getElementById(id).addEventListener("click", () => {
+        changeHideClass(id);
+    })
+})

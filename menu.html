@@ -10,22 +10,32 @@
 <body>
     <header>
         <section class="topHeader">
-            <a href="index.html"><img id ="logoTable" class="Tablelogo" src="images/table_logo.png" alt="Logo"></a>
+            <img id ="logoTable" class="Tablelogo" src="images/table_logo.png" alt="Logo">
             
             <button class="navholder">
-                <svg id ="menuIcon" class="menuIcon">
-                    <use xlink:href="images/sprite.symbol.svg#menu" class ="icon"></use>
-                </svg>
+                <img class ="menuIcon" src="images/icons/hamburger-menu.webp" alt="menu">
             </button>
 
         </section>
+
+        <section id="infoPage" class="infoPage">
+            <img class="bannerImage" src="images/banner.jpg" alt="banner image">
+            <div class="bannerWords">
+                <p> As a family-owned bakery, we strive to produce small-batch baked goods using favorite family recipes
+                    with only the best ingredients to make real food.We don't cut corners.
+                </p>
+                <p class="simpleDelicious"><b>Simple and Delicious!</b></p>
+            </div>
+
+        </section>
+
     </header>
 
     <main>
         <section class="menuItems">
             <div class="BreakfastMenu">
-                <button class="menuButton">Breakfast</button>
-                <section class="breakfastContainer">
+                <button id ="breakfastButton" class="menuButton">Breakfast</button>
+                <section id="breakFastContainer" class="breakFastContainer hide">
                     <h2 class="sectionTitle">Breakfast</h2>
                     <div id = "breakfastItems" class="breakfastItems">
                     
@@ -34,8 +44,8 @@
             </div>
 
             <div class="sandwichMenu">
-                <button class="menuButton">Sandwiches</button>
-                <section id = "sandwichMenuContainer" class="sandwichMenuContainer">
+                <button id ="sandwichButton" class="menuButton">Sandwiches</button>
+                <section id = "sandwichMenuContainer" class="sandwichMenuContainer hide">
                     <h2 class="sectionTitle">Sandwiches</h2>
                     <div id = "sandwichItems" class="sandwichItems">
                     
@@ -45,8 +55,8 @@
             </div>
 
             <div class="grilledSandwichMenu">
-                <button class="menuButton">Grilled Sandwich</button>
-                <section id = "grilledSandwichContainer" class="grilledSandwichContainer">
+                <button  id ="grilledSandwichButton" class="menuButton">Grilled Sandwich</button>
+                <section id = "grilledSandwichContainer" class="grilledSandwichContainer hide">
                     <h2 class="sectionTitle">Grilled Sandwich</h2>
                     <div id = "grilledSandwichItems" class="grilledSandwichItems">
                     
@@ -55,8 +65,8 @@
             </div>
 
             <div class="kidsMenu">
-                <button class="menuButton">Kids Menu</button>
-                <section id = "kidsMenuContainer" class="KidsContainer">
+                <button id = "kidsButton" class="menuButton">Kids Menu</button>
+                <section id = "kidsMenuContainer" class="KidsContainer hide">
                     <h2 class="sectionTitle">Kids Menu</h2>
                     <div id = "kidsMenuItems" class="KidsMenuItems">
                     
@@ -65,8 +75,8 @@
             </div>    
 
             <div class="soups">
-                <button class="menuButton">Soups</button>
-                <section id = "soupsContainer" class="soupsContainer">
+                <button id="soupButton" class="menuButton">Soups</button>
+                <section id = "soupsContainer" class="soupsContainer hide">
                     <h2 class="sectionTitle">Soups</h2>
                     <div id = "soupMenuItems" class="soupMenuItems">
                     
@@ -75,8 +85,8 @@
             </div>  
 
             <div class="drinks">
-                <button class="menuButton">Drinks</button>
-                <section id = "drinkContainer" class="drinkContainer">
+                <button  id="drinkButton" class="menuButton">Drinks</button>
+                <section id = "drinkContainer" class="drinkContainer hide">
                     <h2 class="sectionTitle">Drinks</h2>
                     <div id = "drinkMenuItems" class="drinkMenuItems">
                     
