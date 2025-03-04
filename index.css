@@ -106,8 +106,17 @@ footer{
     align-items: center;
     
 }
-.phone{
-    margin-left: 30px;
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.location{
+    margin-left: 20vw;
+    margin-right: 30vw;
 }
 .icon{
     height: 60px;
@@ -123,22 +132,24 @@ footer{
 .menuItems{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin: 10px;
     padding: 10px;
     border: 2px solid #ffffff;
     background-color: #b5a696;
     height:fit-content;
-    text-align: center;
 }
 .menuButton{
-    border: 2px solid #ffffff;
-    width: 100%;
+    border: none;
+    width: 300px;
+    margin-bottom: 10px;
+    height: 30px;
 
 }
 
 .breakfastContainer{
+    border: #d32929 solid 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,7 +158,7 @@ footer{
     padding: 10px;
     background-color: #b5a696;
     height:fit-content;
-    width: 80%;
+    width: 90vw;
 }
 
 .breakfastItems{
@@ -164,4 +175,5 @@ footer{
 .hide{
     display : none;
 }
+
 
