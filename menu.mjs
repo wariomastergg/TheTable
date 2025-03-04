@@ -136,7 +136,7 @@ const menu = {
         }
 
     },
-    KidsMenu : {
+    kidsMenu : {
         meal : [
             {
                 name : "PB & J with Juice Box",
@@ -156,7 +156,7 @@ const menu = {
         description : "1/2 sandwitch, Chips and a Drink",
         price : 6.60
     },
-    Soups :{
+    soups :{
         size :[
             {
                 name : "Cup",
@@ -171,30 +171,36 @@ const menu = {
                 price : 14.99
             }
         ],
-        DayofWeek : {
-            Monday : {
+        dayOfWeek : [
+            {
+                day : "Monday",
                 name : "Tomato Basil",
             },
-            Tuesday : {
+            {
+                day : "Tuesday",
                 name : "Broccoli Cheddar",
             },
-            Wednesday : {    
+            {   
+                day : "Wednesday", 
                 name : "Chicken Enchilada",
             },
-            Thursday : {
+            {
+                day : "Thursday",
                 name : "Sausege Potato Chowder",
             },
-            Friday : {
+            {
+                day : "Friday",
                 name : "Clamm Chowder",
             },
-            Saturday : {
+            {
+                day : "Saturday",
                 name : "Chefs Choice",
-            },
+            }
 
-        }
+        ]
 
     },
-    Drinks : {
+    drinks : {
         lemonade : [
             {
                 name : "Plain",
