@@ -3,6 +3,7 @@ body{
     padding:0;
     background-color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -15,6 +16,7 @@ header{
     justify-content: space-between;
     margin-bottom: 0px;
     height : 30px;
+    width: 100%;
 }
 
 .Tablelogo{
@@ -28,8 +30,6 @@ header{
     background-color: #b5a696;
     width:30px;
     height: 80%;
-
-    margin-left: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
