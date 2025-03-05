@@ -11,12 +11,20 @@ header{
 
 .topHeader{
     display: flex;
+    flex-direction: row;
     padding: 10px;
     background-color: #333333;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 0px;
-    height : 30px;
-    width: 100%;
+    height : 50px;
+
+}
+
+.namePage{
+    margin-left: 30vw;
+    color : #fcfcfc;
+    margin-bottom: 5px;
+
 }
 
 .Tablelogo{
@@ -26,14 +34,14 @@ header{
     border-radius: 10%;
 }
 
-.navholder{
+/* .navholder{
     background-color: #b5a696;
     width:30px;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .menuIcon{
     height: 50%;
