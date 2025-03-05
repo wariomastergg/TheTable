@@ -5,6 +5,12 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
 }
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 header{
     width: 100%;
 }
@@ -21,7 +27,7 @@ header{
 }
 
 .namePage{
-    margin-left: 20vw;
+    margin-left: 20%;
     color : #fcfcfc;
     margin-bottom: 5px;
 
