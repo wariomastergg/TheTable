@@ -127,8 +127,8 @@ footer{
 
 }
 .location{
-    margin-left: 20vw;
-    margin-right: 30vw;
+    margin-left: 20%;
+    margin-right: 30%;
 }
 .icon{
     height: 60px;
@@ -170,7 +170,7 @@ footer{
     padding: 10px;
     background-color: #b5a696;
     height:fit-content;
-    width: 90vw;
+    width: 90%;
 }
 
 .breakfastItems{
@@ -192,7 +192,7 @@ footer{
 
 @media screen and (min-width: 600px) {
     .timeCard{
-        margin-left: 30vw;
+        margin-left: 30%;
 
     }
      .itemCard{
