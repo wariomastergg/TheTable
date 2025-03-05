@@ -21,7 +21,7 @@ header{
 }
 
 .namePage{
-    margin-left: 10px;
+    margin-left: 20vw;
     color : #fcfcfc;
     margin-bottom: 5px;
 
@@ -81,10 +81,12 @@ header{
     padding: 10px;
     border: 2px solid #b5a696;
     background-color: #ffffff;
+    max-width: 400px;
 }
 
 .cardImage{
-    width: 90%;
+    min-width: 300px;
+    max-width: 400px;
     height: 120px;
 }
 
@@ -110,9 +112,10 @@ footer{
 
 .footInfo{
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
     
 }
 
