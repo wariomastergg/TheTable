@@ -34,7 +34,7 @@ const menu = {
                 price : 8.96
             },
             {
-                name : "Sausege Egg and Cheese Sandwich",
+                name : "Sausage Egg and Cheese Sandwich",
                 price : 10.49
             },
             {
@@ -42,11 +42,11 @@ const menu = {
                 price : 9.49
             },
             {
-                name : "Buttermilk Pankake",
+                name : "Buttermilk Pancake",
                 price : 2.49
             },
             {
-                name: "Biscuits and Gravey",
+                name: "Biscuits and Gravy",
                 price : 6.59
             },
             {
@@ -73,8 +73,8 @@ const menu = {
         ],
         eggs : [
             {
-                name : "Omlete",
-                price : 5.25
+                name : "Omelette",
+                price : 7.99
             },
             {
                 name : [
@@ -198,11 +198,11 @@ const menu = {
             },
             {
                 day : "Thursday",
-                name : "Sausege Potato Chowder",
+                name : "Sausage Potato Chowder",
             },
             {
                 day : "Friday",
-                name : "Clamm Chowder",
+                name : "Clam Chowder",
             },
             {
                 day : "Saturday",
@@ -215,7 +215,7 @@ const menu = {
     drinks : {
         lemonade : [
             {
-                name : "Plain",
+                name : "Fresh Original Lemonade",
                 price : 3.75,
                 description: ""
             },

@@ -13,7 +13,11 @@ async function populateBreakFast(){
 
     menuData.breakfast.eggs.forEach(meal => {
         const line = document.createElement("p");
-        line.textContent = `${meal.name} - $${meal.price}`;
+        if (meal.name == "Omelette"){
+            line.textContent = `${meal.name} - $${meal.price}`;
+        }else{
+            line.textContent = `Eggs (3) : ${meal.name} - $${meal.price}`;
+        }
         breakfastItems.appendChild(line);
     });
 }
