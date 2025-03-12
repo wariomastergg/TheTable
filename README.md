@@ -1,36 +1,24 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I Julio Cesar Tavarez made this webpage for a local Bakery called the Table. I wanted to make a page easy for them to control update prices, add items and remove items from their webpage
 
 
-
-{Provide a description of the software that you wrote.}
-This is a webpage for a local bakery called The Table. I created his webpage using HTML CSS and Javascript. I recently learned about how to do an export and pull request.
-These are of a simple api request and I have had a desire to learn more about api. you can see in the javascript file how i pull the data and refure to it.
-
-The database or the api I ampulling from is a MJS file where it has names of food and prices that the store uses. please do Not make any changes to this unless you are the store owner as this is going to be used for their buisness.
-
-{Describe your purpose for writing this software.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Video for The Table]([http://youtube.link.goes.here](https://youtu.be/1Qe_ihLbGP4))
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used MJS, javascript HTML and CSS. with the basics learning API I was able to pull the data from a JSON file.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+I had to get a lot of help from youtube and github.
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I would maybe change it to be pulling from a csv file rather then a JSON file.
+- I would also chage some of the pictures and make them look more professional.
+- I would change the footer to make it more apealing for users.
