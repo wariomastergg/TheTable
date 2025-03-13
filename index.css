@@ -181,6 +181,7 @@ footer div{
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
+    padding-left: 5px;
     margin-top:10px;
     margin-bottom: 10px;
     border: 2px solid #ffffff;
@@ -195,8 +196,6 @@ footer div{
     margin-bottom: 10px;
     height: 30px;
     align-items: center;
-
-
 }
 
 
@@ -252,6 +251,10 @@ footer p{
         background-color: #484848;
     }
 
+    .bannerImage{
+        justify-self: center;
+    }
+
      .itemCard{
         display: flex;
         flex-direction: row;
@@ -268,7 +271,7 @@ footer p{
 
 
     .namePage{
-        margin-left: 40%;
+        margin-left: 45%;
     }
 
     .bannerWords{
@@ -305,7 +308,7 @@ footer p{
         border: 2px solid #ffffff;
         background-color: #96a2b5;
         height:fit-content;
-        max-width: 500px;
+        width: 240px;
     }
 
     footer{
