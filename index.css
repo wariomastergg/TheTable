@@ -207,7 +207,6 @@ footer div{
     align-items: center;
     margin: 10px;
     padding: 10px;
-    /* background-color: #b5a696; */
     height:fit-content;
     width: 90%;
 }
@@ -219,7 +218,9 @@ footer div{
 #sandwichButton,#breakfastButton {
     padding-right: 20%;
 }
-
+.sandwichMenuContainer{
+    padding-left: 15px;
+}
 .breakfastItems{
     display: flex;
     flex-direction: column;
@@ -230,7 +231,9 @@ footer div{
     width: 80%;
 }
 
-
+.breakfastTitle, h3{
+    margin-left: 20px;
+}
 .hide{
     display : none;
 }
