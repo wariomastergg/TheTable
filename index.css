@@ -102,11 +102,11 @@ header{
     background-color: #ffffff;
     width : 100%;
 }
-/* .timeCard{
-    width:100%;
+.timeCard{
+    width:90%;
 
 
-} */
+}
 
 .cardImage{
     width: 80%;
