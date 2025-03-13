@@ -288,8 +288,7 @@ footer p{
 
     .timeCard{
         margin-left: 5%;
-        min-width: 380px;
-        max-width: 380px;
+        width:380px;
 
     }
 
