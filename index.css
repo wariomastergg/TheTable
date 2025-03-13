@@ -102,6 +102,11 @@ header{
     background-color: #ffffff;
     max-width: 400px;
 }
+.timeCard{
+    width:100%;
+
+
+}
 
 .cardImage{
     width: 80%;
@@ -260,11 +265,6 @@ footer p{
         height: 400px;
     }
 
-    .timeCard{
-        margin-left: 35%;
-        max-width: 380px;
-
-    }
 
     .namePage{
         margin-left: 40%;
