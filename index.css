@@ -164,11 +164,10 @@ footer div{
 .menuItems{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: center;
-    margin: 10px;
-    padding: 10%;
-    margin-left:10%;
+    padding-top: 10%;
+
     margin-top:10px;
     border: 2px solid #ffffff;
     background-color: #96a2b5;
@@ -177,11 +176,12 @@ footer div{
 }
 .menuButton{
     border: none;
-    width: 300px;
+    width: 90%;
     margin-bottom: 10px;
     height: 30px;
 
 }
+
 
 .breakfastContainer{
     border: #d32929 solid 2px;
@@ -194,6 +194,16 @@ footer div{
     /* background-color: #b5a696; */
     height:fit-content;
     width: 90%;
+}
+
+.grilledSandwichContainer,.grilledSandwichMenu , .KidsContainer, .kidsMenu, .soups, .drinks{
+    width: 90%;
+}
+.menuButton{
+    width: 90%;
+}
+#sandwichButton,#breakfastButton {
+    padding-right: 20%;
 }
 
 .breakfastItems{
@@ -260,6 +270,22 @@ footer p{
         padding-left: 35%;
 
     }
+
+    .menuItems{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 10px;
+        padding: 10%;
+        margin-left:10%;
+        margin-top:10px;
+        border: 2px solid #ffffff;
+        background-color: #96a2b5;
+        height:fit-content;
+        max-width: 500px;
+    }
+
     footer{
         flex-direction: row;
     }
