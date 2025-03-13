@@ -240,6 +240,10 @@ footer p{
     color: #fcfcfc;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+    color:#fcfcfc;
+}
 
 @media screen and (min-width: 600px) {
 
