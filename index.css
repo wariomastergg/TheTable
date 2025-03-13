@@ -191,9 +191,11 @@ footer div{
 
 .menuButton{
     border: none;
-    width: 90%;
+    width: 100%;
     margin-bottom: 10px;
     height: 30px;
+    align-items: center;
+
 
 }
 
@@ -214,9 +216,7 @@ footer div{
 .grilledSandwichContainer,.grilledSandwichMenu , .KidsContainer, .kidsMenu, .soups, .drinks{
     width: 90%;
 }
-.menuButton{
-    width: 90%;
-}
+
 #sandwichButton,#breakfastButton {
     padding-right: 20%;
 }
