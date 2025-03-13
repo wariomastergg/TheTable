@@ -143,14 +143,7 @@ footer div{
     min-width: 20%;
 }
 
-/* .footInfo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    
-} */
+
 
 .social{
     display: flex;
@@ -274,7 +267,7 @@ footer p{
 
 
     .namePage{
-        margin-left: 45%;
+        margin-left: 42%;
     }
 
     .bannerWords{
@@ -289,7 +282,7 @@ footer p{
         height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 35%;
+        padding-left: 33.5%;
 
     }
 
