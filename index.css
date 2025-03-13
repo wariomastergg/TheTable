@@ -30,7 +30,7 @@ header{
 }
 
 .namePage{
-    margin-left: 30%;
+    margin-left: 20%;
     color : #fcfcfc;
     margin-bottom: 5px;
 
@@ -168,7 +168,7 @@ footer div{
     align-items: center;
     margin: 10px;
     padding: 10%;
-    margin-left:20%;
+    margin-left:10%;
     margin-top:10px;
     border: 2px solid #ffffff;
     background-color: #96a2b5;
