@@ -286,6 +286,13 @@ footer p{
 
     }
 
+    .timeCard{
+        margin-left: 5%;
+        min-width: 380px;
+        max-width: 380px;
+
+    }
+
     .menuItems{
         display: flex;
         flex-direction: column;
