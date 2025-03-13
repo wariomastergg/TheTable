@@ -122,6 +122,8 @@ button{
 }
 
 footer{
+    color: #fcfcfc;
+    text-decoration: none;
     padding: 10px;
     background-color: #333333;
     color: #fcfcfc;
@@ -129,6 +131,7 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
 }
 
 footer div{
