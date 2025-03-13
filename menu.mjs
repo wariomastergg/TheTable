@@ -140,10 +140,10 @@ const menu = {
             ],
             addOns : [
                 "Ham",
-                "Cheddar",
-                "Lettuce",
-                "Pickles",
-                "House Dressing"
+                " Cheddar",
+                " Lettuce",
+                " Pickles",
+                " House Dressing"
             ]      
         }
 

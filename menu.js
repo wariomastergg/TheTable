@@ -10,7 +10,6 @@ async function populateBreakFast(){
         line.textContent = `${meal.name} - $${meal.price}`;
         breakfastItems.appendChild(line);
     });
-
     menuData.breakfast.eggs.forEach(meal => {
         const line = document.createElement("p");
         if (meal.name == "Omelette"){
@@ -96,6 +95,12 @@ async function populateSoupSize() {
     });
 
     soupItems.appendChild(sizeHolder);
+
+    const br = document.createElement("br");
+    soupItems.appendChild(br);
+    const soupheader = document.createElement("h3");
+    soupheader.textContent = "Daily Soups";
+    soupItems.appendChild(soupheader);
 
     menuData.soups.dayOfWeek.forEach(soup => {
         let line = document.createElement("p");
