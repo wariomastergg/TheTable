@@ -83,7 +83,7 @@ const menu = {
                     " Over Easy",
                     " or Fried"],
 
-                price : 3.69
+                price : 5.25
             },
         ]
     },
@@ -124,7 +124,7 @@ const menu = {
             sandwiches : [
     
                 {
-                    name : "Ham and Cheese",
+                    name : "Grilled Ham and Cheese",
                     price : 9.69,
                 },
                 {
@@ -133,7 +133,7 @@ const menu = {
          
                 },
                 {
-                    name : "PB & J",
+                    name : "Grilled PB & J",
                     price : 3.99,
                 
                 }

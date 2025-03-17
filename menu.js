@@ -38,7 +38,7 @@ async function populateSandWiches(){
 
     sandwichItems.appendChild(document.createElement("br"));
     let addons = document.createElement("h3");
-    addons.textContent = "Add Ons";
+    addons.textContent = "With request Sandwich can come with: ";
 
     sandwichItems.appendChild(addons);
     let line = document.createElement("p");
@@ -59,7 +59,7 @@ async function populateGrilledSandWiches(){
 
     grilledSandwichItems.appendChild(document.createElement("br"));  
     let addons = document.createElement("h3");
-    addons.textContent = "Add Ons";
+    addons.textContent = "With request Sandwich can come with: ";
 
     grilledSandwichItems.appendChild(addons);
     let line = document.createElement("p");
