@@ -1,9 +1,12 @@
 import { getMenuData } from "./menu.mjs";
 
+
+
 async function populateBreakFast(){
     const menuData = await getMenuData();
     const breakfastItems = document.getElementById("breakfastItems");
     
+
 
     menuData.breakfast.meal.forEach(meal => {
         const line = document.createElement("p");
@@ -138,21 +141,34 @@ function populateMenu(){
 
 document.addEventListener("DOMContentLoaded", populateMenu);
 
+let toggleDropdown = [true, true, true, true, true, true];
 
 function changeHideClass(idElement){
-
+    const dropDown = document.getElementById(idElement);
     let containerId ="";
     if (idElement == "breakfastButton"){
+        if (toggleDropdown[0]){dropDown.innerHTML = 'Breakfast ▼';toggleDropdown[0] = false;}
+        else{dropDown.innerHTML = 'Breakfast ▲';toggleDropdown[0] = true;}
         containerId = "breakFastContainer";
     } else if (idElement == "sandwichButton"){
+        if (toggleDropdown[1]){dropDown.innerHTML = 'Sandwiches ▼';toggleDropdown[1] = false;}
+        else{dropDown.innerHTML = 'Sandwiches ▲';toggleDropdown[1] = true;}
         containerId = "sandwichMenuContainer";
     } else if (idElement == "grilledSandwichButton"){
+        if (toggleDropdown[2]){dropDown.innerHTML = 'Grilled Sandwich ▼';toggleDropdown[2] = false;}
+        else{dropDown.innerHTML = 'Grilled Sandwich ▲';toggleDropdown[2] = true;}
         containerId = "grilledSandwichContainer";
     } else if (idElement == "kidsButton"){
+        if (toggleDropdown[3]){dropDown.innerHTML = 'Kids Menu ▼';toggleDropdown[3] = false;}
+        else{dropDown.innerHTML = 'Kids Menu ▲';toggleDropdown[3] = true;}
         containerId = "kidsMenuContainer";
     } else if (idElement == "soupButton"){
+        if (toggleDropdown[4]){dropDown.innerHTML = 'Soups ▼';toggleDropdown[4] = false;}
+        else{dropDown.innerHTML = 'Soups ▲';toggleDropdown[4] = true;}
         containerId = "soupsContainer";
     } else if (idElement == "drinkButton"){
+        if (toggleDropdown[5]){dropDown.innerHTML = 'Drinks ▼';toggleDropdown[5] = false;}
+        else{dropDown.innerHTML = 'Drinks ▲';toggleDropdown[5] = true;}
         containerId = "drinkContainer";
     }
 
@@ -168,3 +184,4 @@ idButtonList.forEach(id => {
         changeHideClass(id);
     })
 })
+

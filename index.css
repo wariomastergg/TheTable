@@ -1,9 +1,11 @@
 /* This was done By Julio cesar Tavarez */
+
+
 body{
     padding:0;
     margin:0;
     background-color: #000000;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Georgia', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
 }
 main{
@@ -26,29 +28,28 @@ header{
 }
 
 .topHeader{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+    display: grid;
+    grid-template-areas:"a b c";
     background-color: #333333;
-    margin-bottom: 20px;
-
     height : auto;
-
+    position: relative;
 }
 
 .namePage{
-    margin-left: 20%;
+    grid-area: b;
+    text-align: center;
     color : #fcfcfc;
-    margin-bottom: 5px;
-
+    font-size: 200%;
+    
 }
 
 .Tablelogo{
+    position:absolute;
     width:70px;
     height: auto;
-    z-index: 0;
-
-    border-radius: 10%;
+    /*z-index: 0;*/
+    border-radius: 50%;
+    align-self: left;
 }
 
 /* .navholder{
@@ -101,10 +102,11 @@ header{
     border: 2px solid #96a2b5;
     background-color: #ffffff;
     width : 100%;
+    border-radius: 25px;
 }
 .timeCard{
     width:90%;
-
+    border-radius: 25px;
 
 }
 
@@ -124,6 +126,13 @@ button{
 .cardButton{
     width: 90px;
     height: 30px;
+    background-color: #484848;
+}
+
+.cardButton:hover{
+    width: 90px;
+    height: 30px;
+    background-color: #202020;
 }
 
 footer{
@@ -165,7 +174,11 @@ footer div{
     color: #fcfcfc;
 }
 
-
+/*add spacing between menu options*/
+hr.solid {
+  border-top: 1px solid #000000;
+  width: 100%;
+}
 
 
 /* This is for menu.html */
@@ -181,6 +194,8 @@ footer div{
     background-color: #96a2b5;
     height:fit-content;
     width: 100%;
+    border-radius: 25px;
+    font: 'Georgia';
 }
 
 .menuButton{
@@ -189,6 +204,19 @@ footer div{
     margin-bottom: 10px;
     height: 30px;
     align-items: center;
+    color: white;
+    font-family: inherit;
+    font-size: 125%;
+    font-style:oblique;
+}
+
+.menuButton:hover{
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    align-items: center;
+    color: blue;
 }
 
 
@@ -208,7 +236,6 @@ footer div{
     width: 90%;
 }
 
-
 .sandwichMenuContainer{
     padding-left: 15px;
 }
@@ -220,6 +247,8 @@ footer div{
     /* background-color: #b5a696; */
     height:fit-content;
     width: 80%;
+    border-style: solid;
+    border-spacing: 3px;
 }
 
 .breakfastTitle{
@@ -228,6 +257,8 @@ footer div{
 .hide{
     display : none;
 }
+
+
 
 footer p{
     color: #fcfcfc;
@@ -269,7 +300,10 @@ a{
 
 
     .namePage{
-        margin-left: 42%;
+        grid-area: b;
+        text-align: center;
+        color : #fcfcfc;
+        
     }
 
     .bannerWords{
@@ -305,6 +339,8 @@ a{
         background-color: #96a2b5;
         height:fit-content;
         width: 200px;
+       
+        
     }
 
     footer{
